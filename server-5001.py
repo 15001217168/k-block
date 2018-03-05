@@ -27,7 +27,7 @@ def mine():
     # 添加到链上
     block = blockchain.new_block(proof)
     response = {
-        'message': "New Block Forged",
+        'message': "新区块",
         'index': block['index'],
         'transactions': block['transactions'],
         'proof': block['proof'],
